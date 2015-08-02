@@ -10,7 +10,7 @@
 
 <link href="dream.css" rel="stylesheet" type="text/css" />
 
-<title>Login</title>
+<title>New User Sign-Up</title>
 
 </head>
 
@@ -55,25 +55,32 @@
 </div>
 <hr class="stop" />
 
-<div style = "width: 100%">
-	<div class = "loginLeftCol">
-		<div class = "loginExistingUserText">
-			<h3>Sign in</h3>
+<div style = "width: 100%" height = "450px">
+	<div class = "newUserBox">
+		<h2>New User Registration</h2>
+		<div class = "newUserForm">
 			<form>
-				<p>Username:<br/><input class = "loginInput" type = "text" /></p>
-				<p>Password:<br/><input class = "loginInput" type = "text" /></p>
-				<input class = "loginSubmit" type = "submit" value = "Sign in"/>
-				<input class = "loginSubmit" type = "reset"/>
+				<p>First Name:<br/>
+				<input type = "text" /></p>
+				<p>Last Name:<br/>
+				<input type = "text" /></p>
+				<p>Password:<br/>
+				<input type = "password" /></p>
+				<p>Confirm Password:<br/>
+				<input type = "password" /></p>
+				<p>Role:<br/>
+				<select>
+					<option value = "buyer">Buyer</option>
+					<option value = "seller">Seller</option>
+				</select></p>
+				<input type = "submit" value = "Create Account" />
+				<input type = "reset"/>
 			</form>
 		</div>
 	</div>
-
-	<div class = "loginRightCol">
-		<div class = "loginNewUserText">
-			<h3>New User?</h3>
-			<p>Click here to make a new account.</p>
-			<a href = "newUser.php">Register</a>
-		</div>
+	<div class = "existingUserBox">
+		<p>Already a user?<br/>
+		<a href = "login.php">Login</a></p>
 	</div>
 </div>
 
