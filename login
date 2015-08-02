@@ -72,7 +72,7 @@
 		<div class = "loginNewUserText">
 			<h3>New User?</h3>
 			<p>Click here to make a new account.</p>
-			<a href = "">Register</a>
+			<a href = "newUser.php">Register</a>
 		</div>
 	</div>
 </div>
