@@ -412,3 +412,10 @@ a {
 .newUserForm{
 	margin: 25px;
 }
+
+.newUserForm form input{
+	border-radius: 5px;
+}
+.newUserForm select{
+	border-radius: 5px;
+}
