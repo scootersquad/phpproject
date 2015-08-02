@@ -1,2 +1,2 @@
-# phpproject
-This is the working file for the PHP auction site project.
+# PHP Project
+This is the working file(s) for the PHP auction site project.
