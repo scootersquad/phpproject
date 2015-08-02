@@ -63,6 +63,7 @@
 				<p>Username:<br/><input class = "loginInput" type = "text" /></p>
 				<p>Password:<br/><input class = "loginInput" type = "text" /></p>
 				<input class = "loginSubmit" type = "submit" value = "Sign in"/>
+				<input class = "loginSubmit" type = "reset"/>
 			</form>
 		</div>
 	</div>
