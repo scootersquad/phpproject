@@ -1,0 +1,414 @@
+html{
+	overflow-y: scroll;
+}
+
+body {
+	background-image: url("background3.png"); 	background-repeat: no-repeat;     background-attachment: fixed; 
+	background-color: #003366; 
+	background-size: cover;
+	}
+
+#newBody {
+	margin: 0px auto; 
+	background-color:#ffffff;
+	color: #003366;
+	max-width: 900px; 
+	height: 100% 
+	}
+
+#header{
+	float: left; 
+	margin: 0px auto; 			
+	background-color: #ffffff; 
+	margin-top:0%
+	}
+
+.stop {
+	clear: both; 
+	color: #003366; 
+	} 
+
+
+
+.save{
+	text-align: right;
+	margin-right: 20px
+	}
+
+
+.space{
+	margin-right:10px;
+	}
+
+.one{
+	float: right;
+	margin-right: 10px; 
+	margin-top: 18px;
+	font-family: Arial; 
+	font-size:16px;
+	color:#003366;
+	}
+
+#imageVeh  	{margin: 0px auto; }
+
+.test img{
+	margin-right: 0px;
+	margin-left: 124px; 
+	width: 80%; 
+	height:100%;
+	}
+
+#myBanner{ 
+	float:right; 
+	width: 80%; 
+	height:100%;
+	}
+
+.mouse img { 
+	width: 29%; 
+	height: 100%; 
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	}
+
+.mainPic {
+	font-family: Arial;
+	margin-left: 20px; 
+	margin-right: 20px;
+	background-color: #003366; 
+	color: #ffffff;
+	}
+
+.mainPara  {
+	margin-left: 10px; 
+	margin-right: 5px; 
+	font-size: 18px; 
+	color: #003366;
+	}
+
+
+
+.midAdd {
+	text-align: center;
+	}
+
+.move a {margin-left: 15px}
+
+.sports {
+	width: 90%; 
+	height: 100%; 
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-top: 70px
+	}
+
+.sports input {
+	font-family: Arial;
+	font-size: 12px;
+	color: #003366;
+	border: none;
+	background-color: white;
+	text-decoration: underline;
+	}
+		
+.sports b {
+	font-family: Arial, san-serif;
+	font-size: 16px
+	}
+	
+		
+.sed{
+	width: 90%;
+	height: 100%; 
+	margin-left: 40px; 
+	margin-bottom: 50px; 
+	margin-top: 50px
+	} 
+
+.sed input {
+	font-family: Arial;
+	font-size: 12px;
+	color: #003366;
+	border: none;
+	background-color: white;
+	text-decoration: underline;
+	}
+		
+.sed b {
+	font-family: Arial, san-serif;
+	font-size: 16px
+	}
+	
+.suv{
+	width: 90%; 
+	height: 100%; 
+	margin-left: 40px;  
+	margin-bottom: 50px; 
+	margin-top: 50px
+	}
+	
+.suv input {
+	font-family: Arial;
+	font-size: 12px;
+	color: #003366;
+	border: none;
+	background-color: white;
+	text-decoration: underline;
+	}
+		
+.suv b {
+	font-family: Arial, san-serif;
+	font-size: 16px
+	}
+
+.sports td {
+	text-align: center; 
+	font-size: 12px
+	} 
+	
+.sed td {
+	text-align: center; 
+	font-size: 12px
+	}
+	
+.suv td {
+	text-align: center;
+	font-size: 12px
+	}
+
+h2{
+	margin-left: 10px; 
+	color: #003366
+	}
+
+.thanks{
+	text-align: center;
+	color: #003366
+	}
+
+table {
+	color: #003366;
+	margin: relative;
+	}
+
+#red {
+	color: red; 
+	font-size: 12px
+	}
+	
+#red1 {
+	color: red; 
+	font-size: 12px
+	}
+	
+
+
+.nav {
+	font-family: Arial;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-left: 5px;
+    height: 40px;
+    background: #003366;
+	}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+	}
+
+.nav ul li {
+    list-style: none;
+	}
+	
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+	}
+	
+.nav ul li a:hover {
+    color: #00bff3;
+	}
+
+blockquote {color: #003366}
+
+.indent input {  
+	margin-left: 10px;
+	margin-bottom: 5px;
+	padding-right: 5px;
+	}
+
+.mid {
+	text-align: center;
+	}
+	
+a {
+	text-decoration: none;
+	color: #00bff3;
+	}
+
+.l {
+	float: left;
+	margin-left: 10px;
+	}
+	
+.r {
+	float: right;
+	}
+	
+.m {
+	margin: fixed;
+	}
+	
+	
+.move {
+	padding: 20px 0px;
+	
+	}
+.exit{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}
+
+.yup {
+	font-family: Arial;
+	}
+	
+.leftCol{
+	display: inline-block;
+	height: 400px;
+	width: 48%;
+	border: none;
+	float: left;
+	margin: 10px 1%;
+		}
+
+.rightCol{
+	display: inline-block;
+	height: 400px;
+	width: 48%;
+	border: none;
+	float: right;
+	margin: 10px 1%;
+		 }
+		 
+.colPicture{
+	height: 60%;
+}
+
+.colDescription{
+	height: 40%;
+	float: bottom;
+}
+
+.colText{
+	width: 70%;
+	height: 100%;
+	float: left;
+	background-color: blue;
+}
+
+.colDetails{
+	width: 30%;
+	height: 100%;
+	float: right;
+	background-color: yellow;
+}
+
+.colPicOne{
+	width: 70%;
+	height: 100%;
+	float: left;
+	background-color: red;
+}
+
+.colPicTwo{
+	width: 30%;
+	height: 33.33333%;
+	background-color: blue;
+	float: right;
+}
+
+.colPicThree{
+	width: 30%;
+	height: 33.33333%;
+	background-color: green;
+	float: right;
+}
+
+.colPicFour{
+	width: 30%;
+	height: 33.33333%;
+	background-color: orange;
+	float: right;
+}
+
+.loginLeftCol{
+	display: inline-block;
+	height: 300px;
+	width: 47%;
+	border: none;
+	float: left;
+	margin: 10px 1%;
+	border-radius: 20px;
+	border: solid 1px;
+		}
+
+.loginRightCol{
+	display: inline-block;
+	height: 300px;
+	width: 47%;
+	border: none;
+	float: right;
+	margin: 10px 1%;
+	text-align: center;
+	border-radius: 20px;
+	border: solid 1px;
+		 }
+		 
+.loginNewUserText{
+	margin: 25%;
+}
+
+.loginExistingUserText{
+	margin-left: 2%;
+	margin-top: 14%;
+}
+
+.loginInput{
+	width: 250px;
+	height: 25px;
+	border-radius: 5px;
+}
+
+.loginSubmit{
+	border-radius: 5px;
+	width: 75px;
+	height: 25px;
+}
+
+.newUserBox{
+	display: inline-block;
+	height: 400px;
+	width: 60%;
+	background-color: yellow;
+	float: left;
+}
+
+.existingUserBox{
+	display: inline-block;
+	background-color: red;
+	width: 40%;
+	height: 400px;
+	float: right;
+}
+
+.newUserForm{
+	margin: 25px;
+}
