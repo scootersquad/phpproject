@@ -395,16 +395,18 @@ a {
 
 .newUserBox{
 	display: inline-block;
-	height: 400px;
-	width: 60%;
-	background-color: yellow;
+	height: 390px;
+	width: 45%;
 	float: left;
+	border: solid 1px;
+	background-color: #F5FFFA;
+	border-radius: 5px;
+	margin-left: 5px;
 }
 
 .existingUserBox{
 	display: inline-block;
-	background-color: red;
-	width: 40%;
+	width: 50%;
 	height: 400px;
 	float: right;
 }
