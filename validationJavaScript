@@ -1,0 +1,52 @@
+<script type="text/javascript">
+/* <![CDATA[ */
+function validateForm( )
+{
+
+if ( document.uploads[0].itemName.selectedIndex == 0 )
+    {
+        window.alert ( "Your form cannot contain empty sections" );
+        return false;
+    }
+	
+
+if ( document.uploads[0].startingPrice.selectedIndex == 0 )
+    {
+        window.alert ( "Your form cannot contain empty sections" );
+        return false;
+    }
+	
+
+if ( document.uploads[0].available.selectedIndex == 0 )
+    {
+        window.alert ( "Your form cannot contain empty sections" );
+        return false;
+    }
+
+if (document.uploads[0].auctionStart.value == "" )
+  
+    {
+        window.alert ( "Your form cannot contain empty sections" );
+        return false;
+    }
+	
+if (document.uploads[0].auctionEnd.value == "" )
+  
+    {
+        window.alert ( "Your form cannot contain empty sections" );
+        return false;
+    }
+	
+if (document.uploads[0].description.value == "" )
+  
+    {
+        window.alert ( "Your form cannot contain empty sections" );
+
+        return false;
+    }
+	
+    }
+return true; 
+}
+/* ]]> */
+</script>
