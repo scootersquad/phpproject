@@ -22,7 +22,7 @@
  </div>
  
  <div class="one">  
-	<!--This is where the address and contact info was next to the logo.-->
+	<h1>The Scooter Squad</h1>
  </div>
  <br />
 
@@ -33,8 +33,8 @@
  <div class="nav">
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="">All Products</a></li>
-                    <li><a href="">Register Item</a></li>
+                    <li><a href="products.php">All Products</a></li>
+                    <li><a href="registerItem.php">Register Item</a></li>
 					<li><a href = "newUser.php">New User</a></li>
 					<li><a href = "login.php">Login</a></li>
                 </ul>
@@ -72,7 +72,7 @@
 		<div class = "loginNewUserText">
 			<h3>New User?</h3>
 			<p>Click here to make a new account.</p>
-			<a href = "newUser.php">Register</a>
+			<a class = "linkButton" href = "newUser.php">Register</a>
 		</div>
 	</div>
 </div>
